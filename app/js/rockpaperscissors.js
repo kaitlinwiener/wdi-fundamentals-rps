@@ -4,7 +4,7 @@
 'use strict';
 
 function getInput() {
-    console.log("Please choose either 'rock', 'paper', or 'scissors'.")
+    console.log("Please choose either 'rock', 'paper', or 'scissors'.");
     return prompt();
 }
 function randomPlay() {
@@ -30,7 +30,7 @@ function getPlayerMove(move) {
     }
     else {
         playerMove = move;
-        console.log("player chooses " + playerMove)
+        console.log("player chooses " + playerMove);
     }
     // Write an expression that operates on a variable called `move`
     // If a `move` has a value, your expression should evaluate to that value.
